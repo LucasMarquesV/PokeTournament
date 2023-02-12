@@ -1,0 +1,46 @@
+﻿@model List<PokemonModel>
+
+@{
+    ViewData["Title"] = "Lutadores";
+}
+
+
+<h1 class="title">Pokemons</h1>
+
+<div class="divMain">
+
+    <div class="a">
+        Total de pokemons: @(Model.Count)
+    </div>
+
+
+</div>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr class="table-header">
+            <th>
+                Pokemon
+            </th>
+            <th>
+                Tipo
+            </th>            
+        </tr>
+    </thead>
+    <tbody class="table-body">
+        @foreach (var pokemon in Model)
+        {
+            <tr>
+                <td>
+                    @pokemon.PokeName
+                </td>
+                <td>
+                    @pokemon.PokeType
+                </td>               
+            </tr>
+        }
+    </tbody>
+</table>
+

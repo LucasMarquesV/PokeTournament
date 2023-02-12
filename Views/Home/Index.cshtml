@@ -1,0 +1,44 @@
+﻿@model List<PokemonModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<h1 class="title">Pokemons</h1>
+
+<div class="divMain">
+
+    <div class="a">
+        Total de pokemons: @(Model.Count)
+    </div>
+
+
+</div>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr class="table-header">
+            <th>
+                Pokemon
+            </th>
+                    
+        </tr>
+    </thead>
+    <tbody class="table-body">
+        @foreach (var pokemon in Model)
+        {
+                <tr>
+                    <td>
+                    @pokemon.PokeName
+                    </td>
+                           
+                </tr>
+        }
+    </tbody>
+</table>
