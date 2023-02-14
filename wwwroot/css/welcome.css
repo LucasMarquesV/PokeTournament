@@ -1,0 +1,27 @@
+﻿body {
+    background: url("../img/Background.jpg") fixed;
+    background-size: cover;
+}
+
+.btnIniciar {
+    position: absolute;
+    left: 2%;
+    top: 80%;
+}
+
+.btn {
+    color: white;
+    font-size: 80px;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3836ff;
+    border-width: 5px;
+    border-color: black;
+}
+
+    .btn:hover {
+        background-color: #7d00f9;
+        border-width: 5px;
+        border-color: black;
+    }

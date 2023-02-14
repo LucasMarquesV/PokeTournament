@@ -12,7 +12,8 @@ namespace PokeTournament.Services
 
         public PokemonModel Fight(PokemonModel pokemon, PokemonModel pokemon2)
         { 
-        
+            // ALTERAR
+        return pokemon;
         }
 
         public PokemonModel GetWinner(PokemonModel pokemon, PokemonModel pokemon2) 
@@ -87,6 +88,7 @@ namespace PokeTournament.Services
                 var pokemonAvg1 = PokeAvg(pokemon);
                 var pokemonAvg2 = PokeAvg(pokemon2);
             }
+            return pokemon;
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2vVLvdye9bKVTSOzqr+xvIiD7iGcbcBk3cnggl3BaOQ=",
+  "Hash": "4ddOKx6/T970a0ZDeoc3pTAwz+yTzRCEu5JWdDmmqu4=",
   "Source": "PokeTournament",
   "BasePath": "_content/PokeTournament",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\css\\welcome.css",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "css/welcome.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\welcome.css"
+    },
+    {
       "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\favicon.ico",
       "SourceId": "PokeTournament",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\Background.jpg",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "img/Background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Background.jpg"
     },
     {
       "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",

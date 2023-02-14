@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\css\\welcome.css",
+      "PackagePath": "staticwebassets\\css\\welcome.css"
+    },
+    {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\Background.jpg",
+      "PackagePath": "staticwebassets\\img\\Background.jpg"
     },
     {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",
