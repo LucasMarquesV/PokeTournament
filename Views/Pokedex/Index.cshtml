@@ -1,0 +1,59 @@
+﻿@model List<PokemonModel>
+
+@{
+    ViewData["Title"] = "Pokedex";
+}
+
+
+<h1 class="title">Pokedex</h1>
+
+<div class="divMain">
+
+    <div class="a">
+        Total de pokemons: @(Model.Count)
+    </div>
+
+
+</div>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr class="table-header">
+            <th>
+                Pokemon
+            </th>
+            <th>
+                HP
+            </th>
+            <th>
+                Spd
+            </th>
+            <th>
+                Atk
+            </th>
+                    
+        </tr>
+    </thead>
+    <tbody class="table-body">
+        @foreach (var pokemon in Model)
+        {
+                <tr>
+                    <td>
+                    @pokemon.PokeName
+                    </td>
+                <td>
+                    @pokemon.PokeHp
+                </td>
+                <td>
+                    @pokemon.PokeSpd
+                </td>
+                <td>
+                    @pokemon.PokeAtk
+                </td>
+                           
+                </tr>
+        }
+    </tbody>
+</table>

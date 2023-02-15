@@ -9,6 +9,12 @@
     top: 80%;
 }
 
+.btnPokedex {
+    position: absolute;
+    left: 82%;
+    top: 80%;
+}
+
 .btn {
     color: white;
     font-size: 80px;
