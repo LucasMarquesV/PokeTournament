@@ -23,5 +23,14 @@ namespace PokeTournament.Controllers
 
             return View(pokeList);
         }
+
+        public IActionResult index2()
+        {
+            
+
+            List<PokemonModel> pokeList = _pokemonRepository.GetAll();
+
+            return View(pokeList);
+        }
     }
 }

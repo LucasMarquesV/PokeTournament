@@ -17,8 +17,76 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\10.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\11.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\12.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\13.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\14.jpg",
+      "PackagePath": "staticwebassets\\img\\14.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\15.jpg",
+      "PackagePath": "staticwebassets\\img\\15.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\16.jpg",
+      "PackagePath": "staticwebassets\\img\\16.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\7.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\8.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\9.jpg"
+    },
+    {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\Background.jpg",
       "PackagePath": "staticwebassets\\img\\Background.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\sky.jpg",
+      "PackagePath": "staticwebassets\\img\\sky.jpg"
     },
     {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",
