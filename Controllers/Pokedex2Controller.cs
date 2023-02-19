@@ -4,11 +4,11 @@ using PokeTournament.Repository;
 
 namespace PokeTournament.Controllers
 {
-    public class PokedexController : Controller
+    public class Pokedex2Controller : Controller
     {
         private readonly IPokemonRepository _pokemonRepository;
 
-        public PokedexController(IPokemonRepository ipokerepo)
+        public Pokedex2Controller(IPokemonRepository ipokerepo)
         {
             _pokemonRepository = ipokerepo;
         }
@@ -19,11 +19,18 @@ namespace PokeTournament.Controllers
             //    new PokemonModel { Id = 2, PokeAtk = 1, PokeAvg = 1, PokeDef = 1, PokeHp = 1, PokeName = "a", PokeSpd = 1, PokeType = "a" }
             //    };
 
-            //List<PokemonModel> pokeList = _pokemonRepository.GetAll();
+            List<PokemonModel> pokeList = _pokemonRepository.GetAll();
 
-            return View();
+            return View(pokeList);
         }
 
-       
+        public IActionResult index2()
+        {
+            
+
+            List<PokemonModel> pokeList = _pokemonRepository.GetAll();
+
+            return View(pokeList);
+        }
     }
 }

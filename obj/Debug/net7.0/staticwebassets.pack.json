@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\PokeTournament.bundle.scp.css"
     },
     {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\css\\Pokedex\\index.css",
+      "PackagePath": "staticwebassets\\css\\Pokedex\\index.css"
+    },
+    {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -87,6 +91,10 @@
     {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\sky.jpg",
       "PackagePath": "staticwebassets\\img\\sky.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\thePokedex.png",
+      "PackagePath": "staticwebassets\\img\\thePokedex.png"
     },
     {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",

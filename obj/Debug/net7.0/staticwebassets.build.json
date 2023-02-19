@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MGjG9E7VfuWbMbpI1EzszvoMQ/TVgUj5Zytjeve9PmQ=",
+  "Hash": "zegKh+/zd2HYB3Bqt4SO2A9kkSZPExgA3blTMeHbfpc=",
   "Source": "PokeTournament",
   "BasePath": "_content/PokeTournament",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PokeTournament.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\css\\Pokedex\\index.css",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "css/Pokedex/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Pokedex\\index.css"
     },
     {
       "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\css\\site.css",
@@ -406,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\sky.jpg"
+    },
+    {
+      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\thePokedex.png",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "img/thePokedex.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\thePokedex.png"
     },
     {
       "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",

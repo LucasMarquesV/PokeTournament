@@ -1,0 +1,13 @@
+div {
+    position: relative;
+}
+
+.inner-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.container-carousel {
+    margin: auto;
+    width: 800px;
+}

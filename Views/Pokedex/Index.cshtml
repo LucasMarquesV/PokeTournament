@@ -1,59 +1,37 @@
-﻿@model List<PokemonModel>
+﻿<link rel="stylesheet" href="~/css/pokedex/index.css">
 
-@{
-    ViewData["Title"] = "Pokedex";
-}
-
-
-<h1 class="title">Pokedex</h1>
-
-<div class="divMain">
-
-    <div class="a">
-        Total de pokemons: @(Model.Count)
-    </div>
-
-
+<div>
+    <img src="~/img/thePokedex.png" alt="" />
+    <img src="~/img/6.jpg" alt="" class="inner-image" />
 </div>
 
-<br />
+<div id="carouselExampleIndicators" class="carousel slide container-carousel" data-bs-ride="carousel">
+    <div class="carousel-indicators" style="bottom: 60px;margin: auto;width: 250px">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+            <img src="~/img/6.jpg" class="d-block w-100" alt="...">
+        </button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
 
-<table class="table">
-    <thead>
-        <tr class="table-header">
-            <th>
-                Pokemon
-            </th>
-            <th>
-                HP
-            </th>
-            <th>
-                Spd
-            </th>
-            <th>
-                Atk
-            </th>
-                    
-        </tr>
-    </thead>
-    <tbody class="table-body">
-        @foreach (var pokemon in Model)
-        {
-                <tr>
-                    <td>
-                    @pokemon.PokeName
-                    </td>
-                <td>
-                    @pokemon.PokeHp
-                </td>
-                <td>
-                    @pokemon.PokeSpd
-                </td>
-                <td>
-                    @pokemon.PokeAtk
-                </td>
-                           
-                </tr>
-        }
-    </tbody>
-</table>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/img/6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/img/5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/img/7.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>

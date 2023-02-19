@@ -28,12 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Coding/repos/PokeTournament/PokeTournament/Views/Pokedex/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZWRleFxJbmRleC5jc2h0bWw=
+[C:/Coding/repos/PokeTournament/PokeTournament/Views/Pokedex - Copy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZWRleCAtIENvcHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Coding/repos/PokeTournament/PokeTournament/Views/Pokedex/Index2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZWRleFxJbmRleDIuY3NodG1s
+[C:/Coding/repos/PokeTournament/PokeTournament/Views/Pokedex - Copy/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZWRleCAtIENvcHlcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Coding/repos/PokeTournament/PokeTournament/Views/Pokedex/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZWRleFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Coding/repos/PokeTournament/PokeTournament/Views/Shared/Error.cshtml]
