@@ -93,12 +93,16 @@
       "PackagePath": "staticwebassets\\img\\goodbackground.png"
     },
     {
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\selecione.jpg",
+      "PackagePath": "staticwebassets\\img\\selecione.jpg"
+    },
+    {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\sky.jpg",
       "PackagePath": "staticwebassets\\img\\sky.jpg"
     },
     {
-      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\thedex.png",
-      "PackagePath": "staticwebassets\\img\\thedex.png"
+      "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\tdex.png",
+      "PackagePath": "staticwebassets\\img\\tdex.png"
     },
     {
       "Id": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",
