@@ -1,13 +1,19 @@
-div {
-    position: relative;
+
+.poke-image {
+    width: 32%;
+    position: absolute;
+    align-items: center;
+    top: 129px;
+    left: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.inner-image {
+.dex-image {
+    width: 70%;
     position: absolute;
-    top: 0px;
-    right: 0px;
-}
-.container-carousel {
-    margin: auto;
-    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

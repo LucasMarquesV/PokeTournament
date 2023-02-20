@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zegKh+/zd2HYB3Bqt4SO2A9kkSZPExgA3blTMeHbfpc=",
+  "Hash": "1zNKgXjSl4du4oGZBifzL1cT1R8BYsIHgIJgPd9+T9k=",
   "Source": "PokeTournament",
   "BasePath": "_content/PokeTournament",
   "Mode": "Default",
@@ -408,6 +408,23 @@
       "OriginalItemSpec": "wwwroot\\img\\Background.jpg"
     },
     {
+      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\goodbackground.png",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "img/goodbackground.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\goodbackground.png"
+    },
+    {
       "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\sky.jpg",
       "SourceId": "PokeTournament",
       "SourceType": "Discovered",
@@ -425,12 +442,12 @@
       "OriginalItemSpec": "wwwroot\\img\\sky.jpg"
     },
     {
-      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\thePokedex.png",
+      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\thedex.png",
       "SourceId": "PokeTournament",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\",
       "BasePath": "_content/PokeTournament",
-      "RelativePath": "img/thePokedex.png",
+      "RelativePath": "img/thedex.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,7 +456,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\thePokedex.png"
+      "OriginalItemSpec": "wwwroot\\img\\thedex.png"
     },
     {
       "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",
