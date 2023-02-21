@@ -1,19 +1,25 @@
 
 .poke-image {
-    width: 60%;
+    width: 27%;
     position: absolute;
     align-items: center;
-    top: 137px;
-    left: 100px;
+    top: 119px;
+    left: 370px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .dex-image {
-    width: 130%;
+    width: 60%;
     position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.container-name {
+    width: 100%;
+    position: static;
 }
 
