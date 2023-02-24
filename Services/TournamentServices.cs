@@ -10,22 +10,35 @@ namespace PokeTournament.Services
             return avg;
         }
 
-        public PokemonModel Fight(List<PokemonModel> pokemon)
+        public PokemonModel GetFinalWinner(List<PokemonModel> pokemon)
+        {
+            List<PokemonModel> winnersFromFight = pokemon;
+
+            for(int i =0; i < (pokemon.Count/2/2); i++)
+            {
+                winnersFromFight = Fight(winnersFromFight);
+            }
+
+            var theWinner = winnersFromFight.FirstOrDefault();
+
+            return theWinner;
+        }
+
+        public List<PokemonModel> Fight(List<PokemonModel> pokemon)
         {
             var winners = new List<PokemonModel>();
             int index = 0;
 
             while(index < pokemon.Count)
             {
-                var winner = GetWinnerFight(pokemon[index], pokemon[index+1]);
+                var winner = GetWinnerDuel(pokemon[index], pokemon[index+1]);
                 winners.Add(winner);
-                index++;
+                index+= 2;
             }
-            // ALTERAR
-            return winners
+            return winners;
         }
 
-        public PokemonModel GetWinnerFight(PokemonModel pokemon, PokemonModel pokemon2)
+        public PokemonModel GetWinnerDuel(PokemonModel pokemon, PokemonModel pokemon2)
         {
             if (pokemon.PokeType == "Normal" && pokemon2.PokeType == "Fighting" || pokemon2.PokeType == "Electric" || pokemon2.PokeType == "Ground")
             {
