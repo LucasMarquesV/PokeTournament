@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g0DE7cu7AfFmarjLNPesuFlLYQINcZpqUO8gqB/LlbY=",
+  "Hash": "d9GG7USm6vaD6aYuQZTjALpRX1NbjtM6VNghkNPKnKk=",
   "Source": "PokeTournament",
   "BasePath": "_content/PokeTournament",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\selecione.jpg"
+    },
+    {
+      "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\selecione2.jpg",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "img/selecione2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\selecione2.jpg"
     },
     {
       "Identity": "C:\\Coding\\repos\\PokeTournament\\PokeTournament\\wwwroot\\img\\sky.jpg",

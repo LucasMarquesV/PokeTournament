@@ -23,3 +23,8 @@
     position: static;
 }
 
+body {
+   background-image: url('../../img/goodbackground.png');
+   background-repeat:no-repeat;
+   background-size: cover;  
+}

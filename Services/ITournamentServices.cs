@@ -6,7 +6,9 @@ namespace PokeTournament.Services
     {
         double PokeAvg(PokemonModel pokemon);
 
-        PokemonModel GetWinner(PokemonModel pokemon, PokemonModel pokemon2);
-        PokemonModel Fight(PokemonModel pokemon, PokemonModel pokemon2);
+        PokemonModel GetWinnerFight(PokemonModel pokemon, PokemonModel pokemon2);
+        PokemonModel Fight(List<PokemonModel> pokemon);
+
+        List<PokemonModel> OrderByAge(List<PokemonModel> pokemonsRng);
     }
 }
