@@ -1,0 +1,35 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/selection/index.css">
+</head>
+
+<div class="header d-flex justify-content-between">
+    <div class="button">
+        <button class="btn btn-success">Começar</button>
+    </div>
+    <div class="button">
+        <button class="btn btn-primary" id="select-all">Selecione todos</button>
+    </div>
+    <div>
+        <a class="btn btn-danger" asp-controller="pokedex" asp-action="index">Pokedex</a>
+    </div>
+    <div>
+        <a class="btn btn-dark" asp-controller="home" asp-action="index">Página inicial</a>
+    </div>
+    
+</div>
+
+<div class="row">
+@foreach (var pokemon in Model) {
+    <div class="col-md-3">
+        <div class="custom-control custom-checkbox image-checkbox">
+            <input type="checkbox" class="custom-control-input" id="@pokemon.Id">
+            <span class="pokemon-name">@pokemon.PokeName</span>
+            <label class="custom-control-label" for="@pokemon.Id">
+                <img src="~/img/@(pokemon.Id).jpg" alt="#" class="img-fluid">                                
+            </label>
+        </div>
+    </div>
+}
+</div>
+
+<script src="js/selection/index.js"></script>

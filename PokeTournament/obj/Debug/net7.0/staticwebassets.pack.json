@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Pokedex\\index.css"
     },
     {
+      "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\css\\Selection\\index.css",
+      "PackagePath": "staticwebassets\\css\\Selection\\index.css"
+    },
+    {
       "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -107,6 +111,10 @@
     {
       "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\tdex.png",
       "PackagePath": "staticwebassets\\img\\tdex.png"
+    },
+    {
+      "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\js\\Selection\\index.js",
+      "PackagePath": "staticwebassets\\js\\Selection\\index.js"
     },
     {
       "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",

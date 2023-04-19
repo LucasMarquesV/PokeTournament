@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FxqEiJOedZBD2Kv1ypi8jCpVsAPjweiFpH2lwjRofg0=",
+  "Hash": "3sk3NwBc+Xdl6ivNto84GjLHGbYozHduYcqvo4VcNhY=",
   "Source": "PokeTournament",
   "BasePath": "_content/PokeTournament",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Pokedex\\index.css"
+    },
+    {
+      "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\css\\Selection\\index.css",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "css/Selection/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Selection\\index.css"
     },
     {
       "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\css\\site.css",
@@ -491,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\tdex.png"
+    },
+    {
+      "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\js\\Selection\\index.js",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "js/Selection/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Selection\\index.js"
     },
     {
       "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\js\\site.js",

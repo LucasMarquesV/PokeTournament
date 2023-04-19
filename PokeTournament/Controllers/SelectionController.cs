@@ -4,11 +4,11 @@ using PokeTournament.Repository;
 
 namespace PokeTournament.Controllers
 {
-    public class SelectionController : Controller
+    public class PokedexController : Controller
     {
         private readonly IPokemonRepository _pokemonRepository;
 
-        public SelectionController(IPokemonRepository ipokerepo)
+        public PokedexController(IPokemonRepository ipokerepo)
         {
             _pokemonRepository = ipokerepo;
         }
