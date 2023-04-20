@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3sk3NwBc+Xdl6ivNto84GjLHGbYozHduYcqvo4VcNhY=",
+  "Hash": "CbnsdL7e+FHUp+D8Tdf8j1JgojI6YYI9Y38gi6VW+TM=",
   "Source": "PokeTournament",
   "BasePath": "_content/PokeTournament",
   "Mode": "Default",
@@ -425,6 +425,23 @@
       "OriginalItemSpec": "wwwroot\\img\\Background.jpg"
     },
     {
+      "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\fundinho.png",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "img/fundinho.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fundinho.png"
+    },
+    {
       "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\goodbackground.png",
       "SourceId": "PokeTournament",
       "SourceType": "Discovered",
@@ -474,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\selecione2.jpg"
+    },
+    {
+      "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\selection fundo copiar.png",
+      "SourceId": "PokeTournament",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\",
+      "BasePath": "_content/PokeTournament",
+      "RelativePath": "img/selection fundo copiar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\selection fundo copiar.png"
     },
     {
       "Identity": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\sky.jpg",

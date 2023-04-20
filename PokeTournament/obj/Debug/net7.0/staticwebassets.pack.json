@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\img\\Background.jpg"
     },
     {
+      "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\fundinho.png",
+      "PackagePath": "staticwebassets\\img\\fundinho.png"
+    },
+    {
       "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\goodbackground.png",
       "PackagePath": "staticwebassets\\img\\goodbackground.png"
     },
@@ -103,6 +107,10 @@
     {
       "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\selecione2.jpg",
       "PackagePath": "staticwebassets\\img\\selecione2.jpg"
+    },
+    {
+      "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\selection fundo copiar.png",
+      "PackagePath": "staticwebassets\\img\\selection fundo copiar.png"
     },
     {
       "Id": "C:\\Coding\\C#\\PokeTournament\\PokeTournament\\wwwroot\\img\\sky.jpg",

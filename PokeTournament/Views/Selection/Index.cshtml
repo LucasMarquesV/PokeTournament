@@ -2,20 +2,22 @@
     <link rel="stylesheet" href="~/css/selection/index.css">
 </head>
 
-<div class="header d-flex justify-content-between">
+<div class="header-container">
+  <img src="~/img/fundinho.png" alt="Imagem de Cabeçalho" class="header-image">
+  <div class="button-container">
     <div class="button">
-        <button class="btn btn-success">Começar</button>
+      <button class="btn btn-success">Começar</button>
     </div>
     <div class="button">
-        <button class="btn btn-primary" id="select-all">Selecione todos</button>
+      <button class="btn btn-primary" id="select-all">Selecione todos</button>
     </div>
     <div>
-        <a class="btn btn-danger" asp-controller="pokedex" asp-action="index">Pokedex</a>
+      <a class="btn btn-danger" asp-controller="pokedex" asp-action="index">Pokedex</a>
     </div>
     <div>
-        <a class="btn btn-dark" asp-controller="home" asp-action="index">Página inicial</a>
+      <a class="btn btn-dark" asp-controller="home" asp-action="index">Página inicial</a>
     </div>
-    
+  </div>
 </div>
 
 <div class="row">
