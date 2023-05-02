@@ -6,8 +6,10 @@ namespace PokeTournament.Services
     {
         double PokeAvg(PokemonModel pokemon);
         PokemonModel GetWinnerDuel(PokemonModel pokemon, PokemonModel pokemon2);
-        List<PokemonModel> Fight(List<PokemonModel> pokemon);
         List<PokemonModel> OrderByRandom(List<PokemonModel> pokemonsRng);
-        PokemonModel GetFinalWinner(List<PokemonModel> pokemons);
+        public List<PokemonModel> RoundOf16(List<PokemonModel> pokeList);
+        public List<PokemonModel> Quarterfinals(List<PokemonModel> pokeList);
+        public List<PokemonModel> Semifinals(List<PokemonModel> pokeList);
+        public PokemonModel FinalMatch(List<PokemonModel> pokeList);
     }
 }

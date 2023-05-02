@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PokeTournament.Data;
 using PokeTournament.Repository;
+using PokeTournament.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
 builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
+builder.Services.AddScoped<ITournamentServices, TournamentServices>();
 
 var app = builder.Build();
 

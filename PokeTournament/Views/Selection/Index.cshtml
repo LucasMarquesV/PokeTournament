@@ -2,14 +2,16 @@
     <link rel="stylesheet" href="~/css/selection/index.css">
 </head>
 
+
+<form method="post" action="@Url.Action("Winner", "Tournament")">
 <div class="header-container">
   <img src="~/img/fundinho.png" alt="Imagem de Cabeçalho" class="header-image">
   <div class="button-container">
     <div class="button">
-      <button class="btn btn-success">Começar</button>
+      <button class="btn btn-success" type="submit">Começar</button>
     </div>
     <div class="button">
-      <button class="btn btn-primary" id="select-all">Selecione todos</button>
+      <input type="button" value="Selecione todos" class="btn btn-primary" id="select-all"/>
     </div>
     <div>
       <a class="btn btn-danger" asp-controller="pokedex" asp-action="index">Pokedex</a>
@@ -21,10 +23,11 @@
 </div>
 
 <div class="row">
+    <label hidden>Selecione os 16 lutadores</label>
 @foreach (var pokemon in Model) {
     <div class="col-md-3">
         <div class="custom-control custom-checkbox image-checkbox">
-            <input type="checkbox" class="custom-control-input" id="@pokemon.Id">
+            <input type="checkbox" class="custom-control-input" id="@pokemon.Id" name="@pokemon.Id">
             <span class="pokemon-name">@pokemon.PokeName</span>
             <label class="custom-control-label" for="@pokemon.Id">
                 <img src="~/img/@(pokemon.Id).jpg" alt="#" class="img-fluid">                                
@@ -33,5 +36,7 @@
     </div>
 }
 </div>
+
+</form>
 
 <script src="js/selection/index.js"></script>

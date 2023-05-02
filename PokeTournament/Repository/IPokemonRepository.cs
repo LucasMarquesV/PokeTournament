@@ -6,7 +6,7 @@ namespace PokeTournament.Repository
     {
         //List<PokemonTestModel> GetAllTeste();
         List<PokemonModel> GetAll();
-        List<PokemonModel> GetPokeById(IFormCollection ids);
+        public List<PokemonModel> GetPokeById(IFormCollection ids);
         PokemonModel GetPokeById(int id);
     }
 }
